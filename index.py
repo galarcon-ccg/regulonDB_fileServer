@@ -6,11 +6,11 @@ import os
 app = Flask(__name__)
 cors = CORS(app)
 
-@app.route('/')
+@app.route('/ht')
 def index():
     return('hola mundo')
 
-@app.route('/download/dataset/chip-seq/<type>/<format>/<id>', methods=['GET'])
+@app.route('/ht/download/dataset/chip-seq/<type>/<format>/<id>', methods=['GET'])
 def dataset(type,format,id):
     cnopts = pysftp.CnOpts()
     cnopts.hostkeys = None
@@ -19,7 +19,7 @@ def dataset(type,format,id):
       return send_file(localFilePath,mimetype='image/png')
     return send_file(localFilePath,mimetype='text/plaint')
         
-@app.route('/regulondb_files/<type>/<format>/<name>', methods=['GET'])
+@app.route('/ht/regulondb_files/<type>/<format>/<name>', methods=['GET'])
 def regulonDB(type,format,name):
     cnopts = pysftp.CnOpts()
     cnopts.hostkeys = None
