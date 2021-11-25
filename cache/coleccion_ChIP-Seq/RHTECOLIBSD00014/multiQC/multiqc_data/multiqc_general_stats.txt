@@ -1,0 +1,10 @@
+Sample	MACS2_mqc-generalstats-macs2-d	MACS2_mqc-generalstats-macs2-treatment_redundant_rate	MACS2_mqc-generalstats-macs2-control_redundant_rate	MACS2_mqc-generalstats-macs2-peak_count	Cutadapt_mqc-generalstats-cutadapt-percent_trimmed	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	Samtools_mqc-generalstats-samtools-flagstat_total	Samtools_mqc-generalstats-samtools-mapped_passed
+DS00051	200.0	0.82	0.37	319									
+ERR411988					4.966122234294165	81.27492105186982	49.0	100.0	25.0	8256979.0			
+ERR411988_cutadapt						80.05892567434006	50.0	98.38889503596037	25.0	7953200.0			
+ERR411988_cutadapt_bowtie2						60.389884340332905	50.0	98.38889503596037	27.27272727272727	7953200.0	80.37		
+ERR411988_cutadapt_bowtie2_bam_stats												7953200	6391758
+ERR411992					14.348478644639313	47.66916329789358	49.0	100.0	16.666666666666664	7143663.0			
+ERR411992_cutadapt						39.49250962517521	50.0	98.5307811083505	16.666666666666664	6192662.0			
+ERR411992_cutadapt_bowtie2						22.590106125194893	50.0	98.5307811083505	18.181818181818183	6192662.0	90.47		
+ERR411992_cutadapt_bowtie2_bam_stats												6192662	5602636

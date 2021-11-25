@@ -1,0 +1,60 @@
+; matrix-scan  -v 1 -matrix_format tab -m motifs/PhoB.tab -pseudo 1 -decimals 1 -2str -origin start -bgfile genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq -bg_pseudo 0.01 -return sites -return pval -return rank -lth score 1 -uth pval 1e-04 -i ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_peaks.fasta -seq_format fasta -n score -o ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_peaks.ft
+; Slow counting mode            
+; Input files
+;	input	ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_peaks.fasta
+;	bg	genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq
+; Matrix files
+;	matrix 1	motifs/PhoB.tab
+; Sequence format      	fasta
+; Output files
+;	output	ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_peaks.ft
+; Pseudo counts        	1
+; Background model
+;	Method        	file
+;	Markov order  	1
+;	Strand        	sensitive
+;	Background pseudo-frequency	0.01
+;	Residue probabilities
+;		a	0.29156
+;		c	0.20734
+;		g	0.20354
+;		t	0.29756
+; Thresholds	lower	upper
+;	pval  	NA	0.0001
+;	score 	1    	NA
+; Output columns
+;	1	seq_id
+;	2	ft_type
+;	3	ft_name
+;	4	strand
+;	5	start
+;	6	end
+;	7	sequence
+;	8	weight
+#seq_id	ft_type	ft_name	strand	start	end	sequence	weight	Pval	ln_Pval	sig	rank	rank_pm
+DS00138_peak_2::NC_000913.3:417024-417265(.)	site	PhoB	R	37	56	TTATGACAGATTTATGAAAA	12.3	6.7e-08	-16.522	7.175	1	1
+DS00138_peak_2::NC_000913.3:417024-417265(.)	site	PhoB	R	48	67	ATGCGTCAGATTTATGACAG	12.1	9.9e-08	-16.133	7.006	2	2
+DS00138_peak_4::NC_000913.3:1576096-1576302(.)	site	PhoB	R	86	105	CTATGACAACTATCTGTCAA	9.9	3.3e-06	-12.613	5.478	1	1
+DS00138_peak_15::NC_000913.3:3776460-3776667(.)	site	PhoB	D	110	129	ACGTTACAGAACTATTACAA	8.2	3.0e-05	-10.400	4.517	1	1
+DS00138_peak_17::NC_000913.3:3911423-3911871(.)	site	PhoB	D	189	208	ATATGACAGTTTTATGACAG	15.8	6.9e-12	-25.704	11.163	1	1
+DS00138_peak_17::NC_000913.3:3911423-3911871(.)	site	PhoB	D	167	186	AGGTGACAGTTATATGTAAG	12.8	2.6e-08	-17.475	7.589	2	2
+DS00138_peak_22::NC_000913.3:4142183-4142452(.)	site	PhoB	R	99	118	TTTTGGCAGATTTGTCACAT	8.7	1.7e-05	-11.008	4.781	1	1
+;
+; Matrices
+;	matrix	name	ncol	nrow	pseudo	Wmin	Wmax	Wrange
+;	1	PhoB	20	4	1	-30.700	15.800	46.500	a:0.292 c:0.207 g:0.204 t:0.298 
+; Number of sequences scanned	25
+; Sum of sequence lengths	6346
+; N residues           	0
+; Matches per matrix
+;	matrix	name	matches	scored
+;	1	PhoB           	7	11742
+;		TOTAL          	7	11742
+; Host name	rsat-tagc
+; Job started	2021-11-06.001948
+; Job done	2021-11-06.001953
+; Seconds	4.72
+;	user	4.72
+;	system	0.03
+;	cuser	0
+;	csystem	0

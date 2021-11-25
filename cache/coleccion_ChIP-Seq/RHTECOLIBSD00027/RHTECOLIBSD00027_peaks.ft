@@ -1,0 +1,66 @@
+; matrix-scan  -v 1 -matrix_format tab -m motifs/FlhDC.tab -pseudo 1 -decimals 1 -2str -origin start -bgfile genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq -bg_pseudo 0.01 -return sites -return pval -return rank -lth score 1 -uth pval 1e-04 -i ChIP-seq_collection/E-MTAB-2457/datasets/DS00137/DS00137_peaks.fasta -seq_format fasta -n score -o ChIP-seq_collection/E-MTAB-2457/datasets/DS00137/DS00137_peaks.ft
+; Slow counting mode            
+; Input files
+;	input	ChIP-seq_collection/E-MTAB-2457/datasets/DS00137/DS00137_peaks.fasta
+;	bg	genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq
+; Matrix files
+;	matrix 1	motifs/FlhDC.tab
+; Sequence format      	fasta
+; Output files
+;	output	ChIP-seq_collection/E-MTAB-2457/datasets/DS00137/DS00137_peaks.ft
+; Pseudo counts        	1
+; Background model
+;	Method        	file
+;	Markov order  	1
+;	Strand        	sensitive
+;	Background pseudo-frequency	0.01
+;	Residue probabilities
+;		a	0.29156
+;		c	0.20734
+;		g	0.20354
+;		t	0.29756
+; Thresholds	lower	upper
+;	pval  	NA	0.0001
+;	score 	1    	NA
+; Output columns
+;	1	seq_id
+;	2	ft_type
+;	3	ft_name
+;	4	strand
+;	5	start
+;	6	end
+;	7	sequence
+;	8	weight
+#seq_id	ft_type	ft_name	strand	start	end	sequence	weight	Pval	ln_Pval	sig	rank	rank_pm
+DS00137_peak_3::NC_000913.3:1130775-1131035(.)	site	FlhDC	R	167	185	TATCGGCGGAATAAACGCA	10.7	2.3e-06	-12.992	5.642	1	1
+DS00137_peak_3::NC_000913.3:1130775-1131035(.)	site	FlhDC	D	143	161	AACGGCATAAATAGCGACC	8.5	2.8e-05	-10.476	4.550	2	2
+DS00137_peak_5::NC_000913.3:1966080-1966465(.)	site	FlhDC	D	190	208	ACAGGCGGGATTTAGGGCT	11.2	1.1e-06	-13.682	5.942	1	1
+DS00137_peak_5::NC_000913.3:1966080-1966465(.)	site	FlhDC	D	168	186	AATGGTTTGAGTAAGGGGC	11.1	1.3e-06	-13.539	5.880	2	2
+DS00137_peak_5::NC_000913.3:1966080-1966465(.)	site	FlhDC	R	38	56	AAGCGCGGGAAGAGGGGCA	8.4	3.1e-05	-10.376	4.506	3	3
+DS00137_peak_6::NC_000913.3:1987943-1988364(.)	site	FlhDC	R	205	223	AATGGCCGGAAAAGACGCC	12.8	8.2e-08	-16.316	7.086	1	1
+DS00137_peak_6::NC_000913.3:1987943-1988364(.)	site	FlhDC	D	181	199	GATGGCAAGAAATAGCGCC	9.7	7.8e-06	-11.757	5.106	2	2
+DS00137_peak_7::NC_000913.3:2001740-2002013(.)	site	FlhDC	D	110	128	AATCGGACGATTAGTGGGT	9.2	1.4e-05	-11.196	4.862	1	1
+DS00137_peak_7::NC_000913.3:2001740-2002013(.)	site	FlhDC	D	133	151	TGAGGGGTTATTTGGGGGT	8.6	2.6e-05	-10.567	4.589	2	2
+DS00137_peak_8::NC_000913.3:2012903-2013291(.)	site	FlhDC	D	189	207	AAACGGGTTTATTGGCGGA	9.8	7.0e-06	-11.873	5.156	1	1
+DS00137_peak_8::NC_000913.3:2012903-2013291(.)	site	FlhDC	D	166	184	AAAGGCGCTAAATAGCAAC	8.4	3.1e-05	-10.376	4.506	2	2
+DS00137_peak_9::NC_000913.3:2019371-2019697(.)	site	FlhDC	R	165	183	AAAGCGGGGAAAAGACGCG	8.7	2.3e-05	-10.669	4.633	1	1
+DS00137_peak_9::NC_000913.3:2019371-2019697(.)	site	FlhDC	D	140	158	TAACGTCAGAGGTAGCACC	7.4	8.0e-05	-9.432	4.096	2	2
+;
+; Matrices
+;	matrix	name 	ncol	nrow	pseudo	Wmin	Wmax	Wrange
+;	1	FlhDC	19	4	1	-45.600	16.500	62.100	a:0.292 c:0.207 g:0.204 t:0.298 
+; Number of sequences scanned	12
+; Sum of sequence lengths	3919
+; N residues           	0
+; Matches per matrix
+;	matrix	name 	matches	scored
+;	1	FlhDC          	13	7406
+;		TOTAL          	13	7406
+; Host name	rsat-tagc
+; Job started	2021-11-05.232458
+; Job done	2021-11-05.232502
+; Seconds	4.16
+;	user	4.16
+;	system	0.03
+;	cuser	0
+;	csystem	0

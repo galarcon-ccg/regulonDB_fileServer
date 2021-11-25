@@ -1,0 +1,69 @@
+; convert-matrix  -from sequences -to tab -i ChIP-seq_collection/GSE111874/datasets/DS00070/DS00070_sites.fasta -pseudo 1 -multiply 1 -decimals 1 -perm 0 -bgfile genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq -bg_format oligos -bg_pseudo 0.01 -logo_format png -logo_file ChIP-seq_collection/GSE111874/datasets/DS00070/DS00070_logo -return counts,counts,frequencies,weights,info,consensus,header,logo -v 1 -to tab -o ChIP-seq_collection/GSE111874/datasets/DS00070/DS00070_matrix.tab
+; Input files
+;	prior	genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq
+;	input	ChIP-seq_collection/GSE111874/datasets/DS00070/DS00070_sites.fasta
+; Input format        	sequences
+; Output files
+;	output	ChIP-seq_collection/GSE111874/datasets/DS00070/DS00070_matrix.tab
+; Output format       	tab
+; pseudo-weight       	1
+; Background model
+;	Strand        	sensitive
+;	Background pseudo-frequency	0.01
+;	Residue probabilities
+;		a	0.29156
+;		c	0.20734
+;		g	0.20354
+;		t	0.29756
+;
+; MATRIX 1/1 : DS00070_sites.fasta_m1
+;
+;
+; Matrix type: counts
+; Pos	1	2	3	4	5	6	7	8	9	10	11	12	13
+; -----	|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+a	0	12	12	0	5	1	0	19	0	3	0	0	0
+c	0	2	0	0	0	0	0	2	1	8	21	0	0
+g	20	2	1	2	1	0	0	0	0	3	0	1	20
+t	1	5	8	19	15	20	21	0	20	7	0	20	1
+//
+;
+; Matrix type: frequencies
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.0  0.6  0.6  0.0  0.2  0.1  0.0  0.9  0.0  0.1  0.0  0.0  0.0
+c  0.0  0.1  0.0  0.0  0.0  0.0  0.0  0.1  0.1  0.4  1.0  0.0  0.0
+g  0.9  0.1  0.1  0.1  0.1  0.0  0.0  0.0  0.0  0.1  0.0  0.1  0.9
+t  0.1  0.2  0.4  0.9  0.7  0.9  1.0  0.0  0.9  0.3  0.0  0.9  0.1
+//
+;
+; Matrix type: weights
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|
+a -3.1  0.7  0.7 -3.1 -0.2 -1.6 -3.1  1.1 -3.1 -0.7 -3.1 -3.1 -3.1
+c -3.1 -0.7 -3.1 -3.1 -3.1 -3.1 -3.1 -0.7 -1.3  0.6  1.5 -3.1 -3.1
+g  1.5 -0.7 -1.3 -0.7 -1.3 -3.1 -3.1 -3.1 -3.1 -0.3 -3.1 -1.3  1.5
+t -1.6 -0.2  0.2  1.1  0.8  1.1  1.2 -3.1  1.1  0.1 -3.1  1.1 -1.6
+//
+;
+; Matrix type: information
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|
+a -0.0  0.4  0.4 -0.0 -0.0 -0.1 -0.0  1.0 -0.0 -0.1 -0.0 -0.0 -0.0
+c -0.0 -0.1 -0.0 -0.0 -0.0 -0.0 -0.0 -0.1 -0.1  0.2  1.5 -0.0 -0.0
+g  1.4 -0.1 -0.1 -0.1 -0.1 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.1  1.4
+t -0.1 -0.1  0.1  0.9  0.6  1.0  1.1 -0.0  1.0  0.0 -0.0  1.0 -0.1
+//
+; consensus	GawTtTTATyCTG
+; consensus.rc	CAGRATAAAAWTC
+; logo file:ChIP-seq_collection/GSE111874/datasets/DS00070//DS00070_logo_m1.png
+; logo file:ChIP-seq_collection/GSE111874/datasets/DS00070//DS00070_logo_m1_rc.png
+;
+; Host name	rsat-tagc
+; Job started	2021-11-06.055537
+; Job done	2021-11-06.055538
+; Seconds	0.19
+;	user	0.19
+;	system	0.02
+;	cuser	0.82
+;	csystem	0.1

@@ -1,0 +1,69 @@
+; convert-matrix  -from sequences -to tab -i ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_sites.fasta -pseudo 1 -multiply 1 -decimals 1 -perm 0 -bgfile genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq -bg_format oligos -bg_pseudo 0.01 -logo_format png -logo_file ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_logo -return counts,counts,frequencies,weights,info,consensus,header,logo -v 1 -to tab -o ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_matrix.tab
+; Input files
+;	prior	genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq
+;	input	ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_sites.fasta
+; Input format        	sequences
+; Output files
+;	output	ChIP-seq_collection/PRJEB39185/datasets/DS00138/DS00138_matrix.tab
+; Output format       	tab
+; pseudo-weight       	1
+; Background model
+;	Strand        	sensitive
+;	Background pseudo-frequency	0.01
+;	Residue probabilities
+;		a	0.29156
+;		c	0.20734
+;		g	0.20354
+;		t	0.29756
+;
+; MATRIX 1/1 : DS00138_sites.fasta_m1
+;
+;
+; Matrix type: counts
+; Pos	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20
+; -----	|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+a	4	0	3	0	0	5	0	7	1	4	1	2	0	5	0	0	5	2	7	3
+c	1	1	0	1	0	0	7	0	0	1	0	1	0	1	0	1	0	5	0	0
+g	0	1	3	0	6	1	0	0	6	0	0	0	0	1	0	5	0	0	0	3
+t	2	5	1	6	1	1	0	0	0	2	6	4	7	0	7	1	2	0	0	1
+//
+;
+; Matrix type: frequencies
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.5  0.0  0.4  0.0  0.0  0.7  0.0  0.9  0.2  0.5  0.2  0.3  0.0  0.7  0.0  0.0  0.7  0.3  0.9  0.4
+c  0.2  0.2  0.0  0.2  0.0  0.0  0.9  0.0  0.0  0.2  0.0  0.2  0.0  0.2  0.0  0.2  0.0  0.7  0.0  0.0
+g  0.0  0.2  0.4  0.0  0.8  0.2  0.0  0.0  0.8  0.0  0.0  0.0  0.0  0.2  0.0  0.7  0.0  0.0  0.0  0.4
+t  0.3  0.7  0.2  0.8  0.2  0.2  0.0  0.0  0.0  0.3  0.8  0.5  0.9  0.0  0.9  0.2  0.3  0.0  0.0  0.2
+//
+;
+; Matrix type: weights
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.6 -2.1  0.3 -2.1 -2.1  0.8 -2.1  1.1 -0.6  0.6 -0.6 -0.0 -2.1  0.8 -2.1 -2.1  0.8 -0.0  1.1  0.3
+c -0.3 -0.3 -2.1 -0.3 -2.1 -2.1  1.5 -2.1 -2.1 -0.3 -2.1 -0.3 -2.1 -0.3 -2.1 -0.3 -2.1  1.1 -2.1 -2.1
+g -2.1 -0.3  0.7 -2.1  1.3 -0.3 -2.1 -2.1  1.3 -2.1 -2.1 -2.1 -2.1 -0.3 -2.1  1.2 -2.1 -2.1 -2.1  0.7
+t -0.0  0.8 -0.6  1.0 -0.6 -0.6 -2.1 -2.1 -2.1 -0.0  1.0  0.6  1.1 -2.1  1.1 -0.6 -0.0 -2.1 -2.1 -0.6
+//
+;
+; Matrix type: information
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.3 -0.1  0.1 -0.1 -0.1  0.5 -0.1  1.0 -0.1  0.3 -0.1 -0.0 -0.1  0.5 -0.1 -0.1  0.5 -0.0  1.0  0.1
+c -0.0 -0.0 -0.1 -0.0 -0.1 -0.1  1.3 -0.1 -0.1 -0.0 -0.1 -0.0 -0.1 -0.0 -0.1 -0.0 -0.1  0.7 -0.1 -0.1
+g -0.1 -0.0  0.3 -0.1  1.0 -0.0 -0.1 -0.1  1.0 -0.1 -0.1 -0.1 -0.1 -0.0 -0.1  0.8 -0.1 -0.1 -0.1  0.3
+t -0.0  0.5 -0.1  0.8 -0.1 -0.1 -0.1 -0.1 -0.1 -0.0  0.8  0.3  1.0 -0.1  1.0 -0.1 -0.0 -0.1 -0.1 -0.1
+//
+; consensus	atrtGaCAGattTaTGaCAr
+; consensus.rc	YTGTCATAAATCTGTCAYAT
+; logo file:ChIP-seq_collection/PRJEB39185/datasets/DS00138//DS00138_logo_m1.png
+; logo file:ChIP-seq_collection/PRJEB39185/datasets/DS00138//DS00138_logo_m1_rc.png
+;
+; Host name	rsat-tagc
+; Job started	2021-11-06.002035
+; Job done	2021-11-06.002036
+; Seconds	0.18
+;	user	0.18
+;	system	0.03
+;	cuser	0.87
+;	csystem	0.09

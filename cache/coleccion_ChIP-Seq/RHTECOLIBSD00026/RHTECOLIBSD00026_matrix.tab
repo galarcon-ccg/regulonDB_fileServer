@@ -1,0 +1,69 @@
+; convert-matrix  -from sequences -to tab -i ChIP-seq_collection/E-MTAB-2457/datasets/DS00136/DS00136_sites.fasta -pseudo 1 -multiply 1 -decimals 1 -perm 0 -bgfile genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq -bg_format oligos -bg_pseudo 0.01 -logo_format png -logo_file ChIP-seq_collection/E-MTAB-2457/datasets/DS00136/DS00136_logo -return counts,counts,frequencies,weights,info,consensus,header,logo -v 1 -to tab -o ChIP-seq_collection/E-MTAB-2457/datasets/DS00136/DS00136_matrix.tab
+; Input files
+;	input	ChIP-seq_collection/E-MTAB-2457/datasets/DS00136/DS00136_sites.fasta
+;	prior	genomes/Escherichia_coli_GCF_000005845.2_ASM584v2/oligo-frequencies/2nt_upstream-noorf_Escherichia_coli_GCF_000005845.2_ASM584v2-ovlp-1str.freq
+; Input format        	sequences
+; Output files
+;	output	ChIP-seq_collection/E-MTAB-2457/datasets/DS00136/DS00136_matrix.tab
+; Output format       	tab
+; pseudo-weight       	1
+; Background model
+;	Strand        	sensitive
+;	Background pseudo-frequency	0.01
+;	Residue probabilities
+;		a	0.29156
+;		c	0.20734
+;		g	0.20354
+;		t	0.29756
+;
+; MATRIX 1/1 : DS00136_sites.fasta_m1
+;
+;
+; Matrix type: counts
+; Pos	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19
+; -----	|--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+a	14	16	6	0	0	0	3	2	1	12	8	9	7	11	8	0	3	1	3
+c	0	1	1	10	1	11	8	2	0	0	0	0	0	0	1	12	0	8	6
+g	1	1	1	8	17	5	6	10	14	0	2	2	0	7	8	6	15	9	1
+t	3	0	10	0	0	2	1	4	3	6	8	7	11	0	1	0	0	0	8
+//
+;
+; Matrix type: frequencies
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.8  0.9  0.3  0.0  0.0  0.0  0.2  0.1  0.1  0.6  0.4  0.5  0.4  0.6  0.4  0.0  0.2  0.1  0.2
+c  0.0  0.1  0.1  0.5  0.1  0.6  0.4  0.1  0.0  0.0  0.0  0.0  0.0  0.0  0.1  0.6  0.0  0.4  0.3
+g  0.1  0.1  0.1  0.4  0.9  0.3  0.3  0.5  0.7  0.0  0.1  0.1  0.0  0.4  0.4  0.3  0.8  0.5  0.1
+t  0.2  0.0  0.5  0.0  0.0  0.1  0.1  0.2  0.2  0.3  0.4  0.4  0.6  0.0  0.1  0.0  0.0  0.0  0.4
+//
+;
+; Matrix type: weights
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.9  1.1  0.1 -2.9 -2.9 -2.9 -0.5 -0.9 -1.5  0.8  0.4  0.5  0.3  0.7  0.4 -2.9 -0.5 -1.5 -0.5
+c -2.9 -1.2 -1.2  1.0 -1.2  1.0  0.7 -0.6 -2.9 -2.9 -2.9 -2.9 -2.9 -2.9 -1.2  1.1 -2.9  0.7  0.5
+g -1.2 -1.2 -1.2  0.8  1.5  0.3  0.5  1.0  1.3 -2.9 -0.6 -0.6 -2.9  0.6  0.8  0.5  1.4  0.9 -1.2
+t -0.5 -2.9  0.6 -2.9 -2.9 -0.9 -1.5 -0.3 -0.5  0.1  0.4  0.3  0.7 -2.9 -1.5 -2.9 -2.9 -2.9  0.4
+//
+;
+; Matrix type: information
+;P    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19
+;-	|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+a  0.7  0.9  0.0 -0.0 -0.0 -0.0 -0.1 -0.1 -0.1  0.5  0.2  0.3  0.1  0.4  0.2 -0.0 -0.1 -0.1 -0.1
+c -0.0 -0.1 -0.1  0.5 -0.1  0.6  0.3 -0.1 -0.0 -0.0 -0.0 -0.0 -0.0 -0.0 -0.1  0.7 -0.0  0.3  0.1
+g -0.1 -0.1 -0.1  0.3  1.4  0.1  0.2  0.5  1.0 -0.0 -0.1 -0.1 -0.0  0.2  0.3  0.2  1.1  0.4 -0.1
+t -0.1 -0.0  0.3 -0.0 -0.0 -0.1 -0.1 -0.1 -0.1  0.0  0.2  0.1  0.4 -0.0 -0.1 -0.0 -0.0 -0.0  0.2
+//
+; consensus	aAwsGSsgGwwwwrrSGsy
+; consensus.rc	RSCSYYWWWWCCSSCSWTT
+; logo file:ChIP-seq_collection/E-MTAB-2457/datasets/DS00136//DS00136_logo_m1.png
+; logo file:ChIP-seq_collection/E-MTAB-2457/datasets/DS00136//DS00136_logo_m1_rc.png
+;
+; Host name	rsat-tagc
+; Job started	2021-11-05.233237
+; Job done	2021-11-05.233238
+; Seconds	0.2
+;	user	0.2
+;	system	0.01
+;	cuser	0.86
+;	csystem	0.1

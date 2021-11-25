@@ -1,0 +1,15 @@
+Sample	MACS2_mqc-generalstats-macs2-d	MACS2_mqc-generalstats-macs2-treatment_redundant_rate	MACS2_mqc-generalstats-macs2-control_redundant_rate	MACS2_mqc-generalstats-macs2-peak_count	Cutadapt_mqc-generalstats-cutadapt-percent_trimmed	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	Samtools_mqc-generalstats-samtools-flagstat_total	Samtools_mqc-generalstats-samtools-mapped_passed	Snippy_mqc-generalstats-snippy-VariantTotal
+DS00022	200.0	0.64	0.34	157										
+GSM1010219					34.026585278887175	64.14758863309595	49.0	36.0	50.0	3603544.0				
+GSM1010219_cutadapt						41.00753442142422	48.0	34.66091568069614	25.0	2456970.0				
+GSM1010219_cutadapt_bowtie2						21.272916877905104	48.0	34.66091568069614	18.181818181818183	2456970.0	96.17			
+GSM1010219_cutadapt_bowtie2_bam_stats												2456970	2362872	
+GSM1010220					5.030900998974122	35.74107115688933	50.0	35.0	25.0	9946604.0				
+GSM1010220_cutadapt						33.622765190078184	50.0	34.35681340850599	25.0	9607394.0				
+GSM1010220_cutadapt_bowtie2						24.739188081923118	50.0	34.35681340850599	18.181818181818183	9607394.0	97.96			
+GSM1010220_cutadapt_bowtie2_bam_stats												9607394	9411621	
+GSM1010224					4.59467131406059	31.492217422084167	49.0	36.0	16.666666666666664	6717074.0				
+GSM1010224_cutadapt						25.684582757820777	49.0	34.80800596300609	16.666666666666664	6599356.0				
+GSM1010224_cutadapt_bowtie2						14.154921783040521	49.0	34.80800596300609	9.090909090909092	6599356.0	99.83			
+GSM1010224_cutadapt_bowtie2_bam_stats												6599356	6588113	
+multiqc														0

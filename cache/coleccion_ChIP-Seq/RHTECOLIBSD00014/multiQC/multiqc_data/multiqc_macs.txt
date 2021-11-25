@@ -1,0 +1,2 @@
+Sample	peak_count	fragment_size	treatment_fragments_total	treatment_fragments_after_filtering	treatment_max_duplicates	treatment_redundant_rate	control_fragments_total	control_fragments_after_filtering	control_max_duplicates	control_redundant_rate	d
+DS00051	319	99.0	6391758.0	1140603.0	1.0	0.82	5602636.0	3512663.0	1.0	0.37	200.0

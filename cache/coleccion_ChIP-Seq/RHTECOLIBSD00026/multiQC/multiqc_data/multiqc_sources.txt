@@ -1,0 +1,25 @@
+Module	Section	Sample Name	Source
+Samtools	flagstat	ERR475432_cutadapt_bowtie2_bam_stats	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475432/ERR475432_cutadapt_bowtie2_bam_stats.txt
+Samtools	flagstat	ERR475435_cutadapt_bowtie2_bam_stats	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475435/ERR475435_cutadapt_bowtie2_bam_stats.txt
+Samtools	flagstat	ERR475433_cutadapt_bowtie2_bam_stats	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475433/ERR475433_cutadapt_bowtie2_bam_stats.txt
+Samtools	flagstat	ERR475434_cutadapt_bowtie2_bam_stats	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475434/ERR475434_cutadapt_bowtie2_bam_stats.txt
+Bowtie 2 / HiSAT2	all_sections	ERR475432_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475432/ERR475432_cutadapt_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	ERR475435_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475435/ERR475435_cutadapt_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	ERR475433_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475433/ERR475433_cutadapt_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	ERR475434_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475434/ERR475434_cutadapt_bowtie2.log
+Cutadapt	all_sections	ERR475432	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475432/ERR475432_cutadapt.log
+Cutadapt	all_sections	ERR475435	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475435/ERR475435.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	ERR475433	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475433/ERR475433.fastq.gz_trimming_report.txt
+Cutadapt	all_sections	ERR475434	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475434/ERR475434_cutadapt.log
+FastQC	all_sections	ERR475432_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475432/ERR475432_cutadapt_bowtie2_bam_qc/ERR475432_cutadapt_bowtie2_fastqc.zip
+FastQC	all_sections	ERR475432	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475432/ERR475432_fastq.gz_qc/ERR475432_fastqc.zip
+FastQC	all_sections	ERR475432_cutadapt	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475432/ERR475432_cutadapt_fastq.gz_qc/ERR475432_cutadapt_fastqc.zip
+FastQC	all_sections	ERR475435_cutadapt	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475435/ERR475435_cutadapt_fastq.gz_qc/ERR475435_cutadapt_fastqc.zip
+FastQC	all_sections	ERR475435	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475435/ERR475435_fastq.gz_qc/ERR475435_fastqc.zip
+FastQC	all_sections	ERR475435_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475435/ERR475435_cutadapt_bowtie2_bam_qc/ERR475435_cutadapt_bowtie2_fastqc.zip
+FastQC	all_sections	ERR475433_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475433/ERR475433_cutadapt_bowtie2_bam_qc/ERR475433_cutadapt_bowtie2_fastqc.zip
+FastQC	all_sections	ERR475433	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475433/ERR475433_fastq.gz_qc/ERR475433_fastqc.zip
+FastQC	all_sections	ERR475433_cutadapt	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475433/ERR475433_cutadapt_fastq.gz_qc/ERR475433_cutadapt_fastqc.zip
+FastQC	all_sections	ERR475434_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475434/ERR475434_cutadapt_bowtie2_bam_qc/ERR475434_cutadapt_bowtie2_fastqc.zip
+FastQC	all_sections	ERR475434	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475434/ERR475434_fastq.gz_qc/ERR475434_fastqc.zip
+FastQC	all_sections	ERR475434_cutadapt	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-2457/samples/ERR475434/ERR475434_cutadapt_fastq.gz_qc/ERR475434_cutadapt_fastqc.zip

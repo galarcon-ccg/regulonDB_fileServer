@@ -1,0 +1,18 @@
+Sample	MACS2_mqc-generalstats-macs2-d	MACS2_mqc-generalstats-macs2-treatment_redundant_rate	MACS2_mqc-generalstats-macs2-control_redundant_rate	MACS2_mqc-generalstats-macs2-peak_count	Cutadapt_mqc-generalstats-cutadapt-percent_trimmed	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	Samtools_mqc-generalstats-samtools-flagstat_total	Samtools_mqc-generalstats-samtools-mapped_passed
+DS00136	200.0	0.95	0.99	35									
+ERR475432					34.84104457685372	92.68176546140114	55.0	51.0	50.0	9882421.0			
+ERR475432_cutadapt						89.09735061328459	57.0	50.06791415554339	33.33333333333333	6555997.0			
+ERR475432_cutadapt_bowtie2						57.0004253611305	57.0	50.06791415554339	27.27272727272727	6555997.0	41.63		
+ERR475432_cutadapt_bowtie2_bam_stats												6555997	2729492
+ERR475433					10.596974534638472	92.79230788872323	50.0	25.0	41.66666666666667	1767067.0			
+ERR475433_cutadapt						91.92558316447645	50.0	24.62055605621823	25.0	1580128.0			
+ERR475433_cutadapt_bowtie2						90.45121442291153	50.0	24.62055605621823	27.27272727272727	1580128.0	91.07		
+ERR475433_cutadapt_bowtie2_bam_stats												1580128	1439068
+ERR475434					29.580609898075714	83.49919784153346	52.0	51.0	58.333333333333336	14793096.0			
+ERR475434_cutadapt						79.4903685219685	52.0	48.59414543304494	33.33333333333333	10930817.0			
+ERR475434_cutadapt_bowtie2						23.85873100782966	52.0	48.59414543304494	18.181818181818183	10930817.0	76.22		
+ERR475434_cutadapt_bowtie2_bam_stats												10930817	8331177
+ERR475435					40.822229947803116	92.55046674203304	51.0	51.0	41.66666666666667	12447908.0			
+ERR475435_cutadapt						91.62663970440533	52.0	50.10435020634716	25.0	7478174.0			
+ERR475435_cutadapt_bowtie2						71.28326970334544	52.0	50.10435020634716	27.27272727272727	7478174.0	80.32		
+ERR475435_cutadapt_bowtie2_bam_stats												7478174	6006744

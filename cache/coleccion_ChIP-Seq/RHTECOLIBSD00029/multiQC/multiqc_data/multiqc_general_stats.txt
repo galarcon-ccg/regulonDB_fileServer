@@ -1,0 +1,18 @@
+Sample	MACS2_mqc-generalstats-macs2-d	MACS2_mqc-generalstats-macs2-treatment_redundant_rate	MACS2_mqc-generalstats-macs2-control_redundant_rate	MACS2_mqc-generalstats-macs2-peak_count	Cutadapt_mqc-generalstats-cutadapt-percent_trimmed	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences	Bowtie 2 / HiSAT2_mqc-generalstats-bowtie_2_hisat2-overall_alignment_rate	Samtools_mqc-generalstats-samtools-flagstat_total	Samtools_mqc-generalstats-samtools-mapped_passed
+DS00139	200.0	0.93	0.94	96									
+SAMEA7034800					28.494632350454985	84.45619228331049	48.0	51.0	41.66666666666667	4219388.0			
+SAMEA7034800_cutadapt						78.22005074023616	47.0	50.399924858725235	25.0	3052916.0			
+SAMEA7034800_cutadapt_bowtie2						48.688024977542945	47.0	50.399924858725235	16.666666666666664	3052916.0	95.25		
+SAMEA7034800_cutadapt_bowtie2_bam_stats												3052916	2907996
+SAMEA7034801					22.775582883986736	81.40841385162831	48.0	51.0	41.66666666666667	3860922.0			
+SAMEA7034801_cutadapt						74.65863940280252	47.0	50.461628450323175	25.0	3013196.0			
+SAMEA7034801_cutadapt_bowtie2						43.408409304208206	47.0	50.461628450323175	16.666666666666664	3013196.0	94.59		
+SAMEA7034801_cutadapt_bowtie2_bam_stats												3013196	2850149
+SAMEA7034804					32.08799707333186	86.86755982480199	53.0	51.0	41.66666666666667	10983138.0			
+SAMEA7034804_cutadapt						80.10515150575714	54.0	50.12558980546175	25.0	7585552.0			
+SAMEA7034804_cutadapt_bowtie2						44.17849096858677	54.0	50.12558980546175	16.666666666666664	7585552.0	75.19		
+SAMEA7034804_cutadapt_bowtie2_bam_stats												7585552	5703552
+SAMEA7034805					37.92910750475444	87.28166571236834	51.0	51.0	41.66666666666667	20718558.0			
+SAMEA7034805_cutadapt						79.45123804608973	50.0	50.06596184135765	25.0	13096011.0			
+SAMEA7034805_cutadapt_bowtie2						36.63549024932663	50.0	50.06596184135765	16.666666666666664	13096011.0	90.01		
+SAMEA7034805_cutadapt_bowtie2_bam_stats												13096011	11787458

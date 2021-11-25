@@ -1,0 +1,13 @@
+Module	Section	Sample Name	Source
+Samtools	flagstat	ERR015954_cutadapt_bowtie2_bam_stats	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015954/ERR015954_cutadapt_bowtie2_bam_stats.txt
+Samtools	flagstat	ERR015952_cutadapt_bowtie2_bam_stats	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015952/ERR015952_cutadapt_bowtie2_bam_stats.txt
+Bowtie 2 / HiSAT2	all_sections	ERR015954_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015954/ERR015954_cutadapt_bowtie2.log
+Bowtie 2 / HiSAT2	all_sections	ERR015952_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015952/ERR015952_cutadapt_bowtie2.log
+Cutadapt	all_sections	ERR015954	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015954/ERR015954_cutadapt.log
+Cutadapt	all_sections	ERR015952	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015952/ERR015952.fastq.gz_trimming_report.txt
+FastQC	all_sections	ERR015954_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015954/ERR015954_cutadapt_bowtie2_bam_qc/ERR015954_cutadapt_bowtie2_fastqc.zip
+FastQC	all_sections	ERR015954	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015954/ERR015954_fastq.gz_qc/ERR015954_fastqc.zip
+FastQC	all_sections	ERR015954_cutadapt	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015954/ERR015954_cutadapt_fastq.gz_qc/ERR015954_cutadapt_fastqc.zip
+FastQC	all_sections	ERR015952_cutadapt	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015952/ERR015952_cutadapt_fastq.gz_qc/ERR015952_cutadapt_fastqc.zip
+FastQC	all_sections	ERR015952_cutadapt_bowtie2	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015952/ERR015952_cutadapt_bowtie2_bam_qc/ERR015952_cutadapt_bowtie2_fastqc.zip
+FastQC	all_sections	ERR015952	/workspace/rioualen/HT_collections/ChIP-seq_collection/E-MTAB-332/samples/ERR015952/ERR015952_fastq.gz_qc/ERR015952_fastqc.zip
