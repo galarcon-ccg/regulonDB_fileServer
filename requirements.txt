@@ -1,4 +1,0 @@
-requests>=2.20.0
-Flask>=0.12.3
-Flask-Cors==3.0.9
-Flask-Compress==1.4.0

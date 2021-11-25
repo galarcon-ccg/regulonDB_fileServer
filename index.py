@@ -6,13 +6,6 @@ import os
 app = Flask(__name__)
 cors = CORS(app)
 
-myHostname = os.environ.get('SFTP_HOST')
-myUsername = os.environ.get('SFTP_USERNAME')
-myPassword = os.environ.get('SFTP_PASSWORD')
-myPort = int(os.environ.get('SFTP_PORT'))
-
-
-
 @app.route('/')
 def index():
     return('hola mundo')
