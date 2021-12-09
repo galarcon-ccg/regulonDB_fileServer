@@ -1,5 +1,0 @@
-Sample	total_reads	unpaired_total	unpaired_aligned_none	unpaired_aligned_one	unpaired_aligned_multi	overall_alignment_rate
-SAMEA7034800_cutadapt_bowtie2	3052916	3052916	144920	2701148	206848	95.25
-SAMEA7034801_cutadapt_bowtie2	3013196	3013196	163047	2676490	173659	94.59
-SAMEA7034802_cutadapt_bowtie2	13409212	13409212	371732	12379195	658285	97.23
-SAMEA7034803_cutadapt_bowtie2	13427969	13427969	506175	12320839	600955	96.23

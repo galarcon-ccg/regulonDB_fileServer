@@ -1,5 +1,0 @@
-Sample	total_reads	unpaired_total	unpaired_aligned_none	unpaired_aligned_one	unpaired_aligned_multi	overall_alignment_rate
-GSM1937967_cutadapt_bowtie2	17260520	17260520	33136	16671915	555469	99.81
-GSM1937968_cutadapt_bowtie2	17294570	17294570	524838	16187433	582299	96.97
-GSM1937969_cutadapt_bowtie2	16032663	16032663	517403	14978088	537172	96.77
-GSM1937972_cutadapt_bowtie2	22347592	22347592	424736	21052210	870646	98.1

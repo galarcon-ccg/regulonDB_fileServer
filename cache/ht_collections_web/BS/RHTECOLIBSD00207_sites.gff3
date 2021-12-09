@@ -1,0 +1,8 @@
+NC_000913.3	RegulonDB	binding_site	84171	84184	7.9	+	.	name=tfbs in peak_4;sequence=GATTATTATGCTG
+NC_000913.3	RegulonDB	binding_site	85373	85386	8.7	+	.	name=tfbs in peak_5;sequence=GAATTTTATTCTG
+NC_000913.3	RegulonDB	binding_site	419323	419336	7.8	+	.	name=tfbs in peak_25;sequence=GTGTTTTATACTG
+NC_000913.3	RegulonDB	binding_site	1237383	1237396	7.9	+	.	name=tfbs in peak_61;sequence=GAATTTTATGCTG
+NC_000913.3	RegulonDB	binding_site	1237528	1237541	7.9	+	.	name=tfbs in peak_61;sequence=GATTATTATTCTT
+NC_000913.3	RegulonDB	binding_site	3050864	3050877	8.1	-	.	name=tfbs in peak_113;sequence=GTTTTTTATTCTG
+NC_000913.3	RegulonDB	binding_site	3354285	3354298	8.2	-	.	name=tfbs in peak_130;sequence=GCATTTTATACTG
+NC_000913.3	RegulonDB	binding_site	3485372	3485385	7.8	-	.	name=tfbs in peak_147;sequence=GTATTTTATCCGG

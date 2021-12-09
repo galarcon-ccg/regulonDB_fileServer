@@ -1,0 +1,12 @@
+NC_000913.3	RegulonDB	ChIP_seq_region	396208	396536	489	.	.	name=peak_1;FC_summitlog10=9.68492;pval_summitlog10=52.9183;qval_summit=48.9634;relative_summit_pos=141
+NC_000913.3	RegulonDB	ChIP_seq_region	1105000	1105325	473	.	.	name=peak_2;FC_summitlog10=7.11048;pval_summitlog10=51.2751;qval_summit=47.3718;relative_summit_pos=155
+NC_000913.3	RegulonDB	ChIP_seq_region	1130775	1131035	305	.	.	name=peak_3;FC_summitlog10=3.36089;pval_summitlog10=34.0887;qval_summit=30.5834;relative_summit_pos=163
+NC_000913.3	RegulonDB	ChIP_seq_region	1328994	1329356	742	.	.	name=peak_4;FC_summitlog10=13.3513;pval_summitlog10=79.382;qval_summit=74.2836;relative_summit_pos=168
+NC_000913.3	RegulonDB	ChIP_seq_region	1966080	1966465	547	.	.	name=peak_5;FC_summitlog10=5.77719;pval_summitlog10=58.8319;qval_summit=54.7506;relative_summit_pos=166
+NC_000913.3	RegulonDB	ChIP_seq_region	1987943	1988364	688	.	.	name=peak_6;FC_summitlog10=6.67447;pval_summitlog10=73.3993;qval_summit=68.8532;relative_summit_pos=226
+NC_000913.3	RegulonDB	ChIP_seq_region	2001740	2002013	141	.	.	name=peak_7;FC_summitlog10=2.26787;pval_summitlog10=17.4305;qval_summit=14.1687;relative_summit_pos=116
+NC_000913.3	RegulonDB	ChIP_seq_region	2012903	2013291	431	.	.	name=peak_8;FC_summitlog10=4.22079;pval_summitlog10=46.8685;qval_summit=43.106;relative_summit_pos=201
+NC_000913.3	RegulonDB	ChIP_seq_region	2019371	2019697	235	.	.	name=peak_9;FC_summitlog10=2.79214;pval_summitlog10=26.9462;qval_summit=23.5539;relative_summit_pos=192
+NC_000913.3	RegulonDB	ChIP_seq_region	3577497	3577810	334	.	.	name=peak_10;FC_summitlog10=7.99505;pval_summitlog10=37.0459;qval_summit=33.4789;relative_summit_pos=157
+NC_000913.3	RegulonDB	ChIP_seq_region	3578611	3578948	571	.	.	name=peak_11;FC_summitlog10=10.7931;pval_summitlog10=61.3113;qval_summit=57.1697;relative_summit_pos=159
+NC_000913.3	RegulonDB	ChIP_seq_region	3701552	3701753	101	.	.	name=peak_12;FC_summitlog10=4.47552;pval_summitlog10=13.3826;qval_summit=10.1752;relative_summit_pos=144

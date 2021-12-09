@@ -1,2 +1,0 @@
-Sample	peak_count	fragment_size	treatment_fragments_total	control_fragments_total	d
-DS00070	766	36.0	22384150.0	16557421.0	200.0

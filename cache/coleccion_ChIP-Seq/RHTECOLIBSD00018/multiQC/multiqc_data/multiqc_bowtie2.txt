@@ -1,5 +1,0 @@
-Sample	total_reads	paired_total	paired_aligned_none	paired_aligned_one	paired_aligned_multi	paired_aligned_discord_one	paired_aligned_mate_none	paired_aligned_mate_one	paired_aligned_mate_multi	overall_alignment_rate	paired_aligned_mate_multi_halved	paired_aligned_mate_none_halved	paired_aligned_mate_one_halved
-GSM3043061_cutadapt_bowtie2	11963753	11963753	1149488	10515561	298704	485344	1131983	160654	35651	95.27	17825.5	565991.5	80327.0
-GSM3043062_cutadapt_bowtie2	13885741	13885741	1413120	12129277	343344	807857	947389	205515	57622	96.59	28811.0	473694.5	102757.5
-GSM3043097_cutadapt_bowtie2	8448818	8448818	558539	7654797	235482	281746	421779	109422	22385	97.5	11192.5	210889.5	54711.0
-GSM3043098_cutadapt_bowtie2	8756432	8756432	1108534	7413939	233959	738571	538406	149407	52113	96.93	26056.5	269203.0	74703.5
