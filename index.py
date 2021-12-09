@@ -10,15 +10,35 @@ cors = CORS(app)
 def index():
     return('hola mundo')
 
-@app.route('/ht/download/<type>/<id>', methods=['GET'])
-def dataset(type,format,id):
+@app.route('/ht/download/BS/<type>/<id>', methods=['GET'])
+def datasetBS(type,id):
     cnopts = pysftp.CnOpts()
     cnopts.hostkeys = None
-    localFilePath = "./cache/ht_collections_web/"+id+"_"+type+".gff3"
-    if format == 'png':
-      return send_file(localFilePath,mimetype='image/png')
+    localFilePath = "./cache/ht_collections_web/BS/"+id+"_"+type+".gff3"
     return send_file(localFilePath,mimetype='text/plaint')
 
+@app.route('/ht/download/TS/<id>', methods=['GET'])
+def datasetTS(id):
+    cnopts = pysftp.CnOpts()
+    cnopts.hostkeys = None
+    localFilePath = "./cache/ht_collections_web/TS/"+id+".gff3"
+    return send_file(localFilePath,mimetype='text/plaint')
+
+@app.route('/ht/download/TT/<id>', methods=['GET'])
+def datasetTT(id):
+    cnopts = pysftp.CnOpts()
+    cnopts.hostkeys = None
+    localFilePath = "./cache/ht_collections_web/TS/"+id+".gff3"
+    return send_file(localFilePath,mimetype='text/plaint')
+
+@app.route('/ht/download/TU/<id>', methods=['GET'])
+def datasetTT(id):
+    cnopts = pysftp.CnOpts()
+    cnopts.hostkeys = None
+    localFilePath = "./cache/ht_collections_web/TU/"+id+".gff3"
+    return send_file(localFilePath,mimetype='text/plaint')
+
+'''
 @app.route('/ht/download/dataset/chip-seq/<type>/<format>/<id>', methods=['GET'])
 def dataset(type,format,id):
     cnopts = pysftp.CnOpts()
@@ -47,4 +67,4 @@ with pysftp.Connection(host=myHostname, port=myPort, username=myUsername, passwo
             sftp.get(remoteFilePath, localFilePath)
             return send_file(localFilePath,mimetype='text/plaint')
     """
-    
+'''
